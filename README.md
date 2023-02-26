@@ -25,7 +25,8 @@ After installing the above dependencies, you can follow the below steps to set u
   
   This will start the project and listen for incoming webhooks on http://localhost:8080.
   
-5. I've used NGROK to let Github access my Webhook endpoint.
+5. To allow Github to hit your Webhook endpoint, you need to use [NGROK](https://ngrok.com/).
+  ngrok http 8080
   
   
 ## Usage
